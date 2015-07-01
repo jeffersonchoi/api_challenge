@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'beers/index'
+
+  get 'beers/show'
+
   get 'events/index'
 
   get 'events/show'

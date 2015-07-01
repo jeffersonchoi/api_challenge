@@ -5,6 +5,7 @@
     <th>longitude</th>
     <th>latitude</th>
     <th>description</th>
+    <th>Detail</th>
   </tr>
 
     <% @events.each do |event| %>
@@ -14,6 +15,7 @@
     <td><%= event.longitude %></td>
     <td><%= event.latitude %></td>
     <td><%= truncate(event.description) %></td>
+    <td><%
   </tr>
   <% end %>
 
