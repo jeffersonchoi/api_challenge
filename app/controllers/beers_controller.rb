@@ -3,5 +3,6 @@ class BeersController < ApplicationController
   end
 
   def show
+  	
   end
 end

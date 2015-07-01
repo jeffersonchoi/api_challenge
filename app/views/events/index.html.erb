@@ -15,7 +15,8 @@
     <td><%= event.longitude %></td>
     <td><%= event.latitude %></td>
     <td><%= truncate(event.description) %></td>
-    <td><%
+    <td><%= link_to "Google map", "https://www.google.com/maps/search/#{event.latitude},+#{event.longitude}/@#{event.latitude},#{event.longitude},10z" %>
+  
   </tr>
   <% end %>
 

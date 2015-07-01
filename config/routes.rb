@@ -1,11 +1,13 @@
 Rails.application.routes.draw do
-  get 'beers/index'
+  # get 'beers/index'
 
-  get 'beers/show'
+  # get 'beers/show'
 
-  get 'events/index'
+  # get 'events/index'
 
-  get 'events/show'
+  # get 'events/show'
+
+  resources :events 
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
